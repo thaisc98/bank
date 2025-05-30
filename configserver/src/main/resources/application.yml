@@ -23,11 +23,22 @@ spring:
     username: "guest"
     password: "guest"
 
-managment:
+management:
   endpoints:
     web:
       exposure:
         include: "*"
+  health:
+    readinessState:
+      enabled: true
+    livenessState:
+      enabled: true
+  endpoint:
+    health:
+      probes:
+        enabled: true
+
+
 
 encrypt:
   key: "LsKk9VA80SH9CqTGJAdFdb1LT2W48X3I"
