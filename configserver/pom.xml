@@ -64,7 +64,7 @@
 						<image>eclipse-temurin:21-jre-jammy</image> <!-- Java 21 base image -->
 					</from>
 					<to>
-						<image>thaisc98/${project.artifactId}:v6</image>
+						<image>thaisc98/${project.artifactId}:v7</image>
 					</to>
 				</configuration>
 			</plugin>
